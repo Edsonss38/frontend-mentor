@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Cartão de Produto</title>
+
+    <!-- Fontes do Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ícone da aba -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="cartao-produto">
+        <picture class="img">
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="Perfume Gabrielle Essence Eau De Parfum"
+          />
+        </picture>
+
+        <div class="conteudo">
+          <p class="categoria">Perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="descricao">
+            Uma interpretação floral, solar e voluptuosa composta por Olivier
+            Polge, perfumista da Maison CHANEL.
+          </p>
+
+          <div class="preco">
+            <span class="preco-atual">R$149,99</span>
+            <span class="preco-original">R$169,99</span>
+          </div>
+
+          <button class="botao-comprar">
+            <img
+              src="./images/icon-cart.svg"
+              alt="Ícone de carrinho"
+              class="icone-carrinho"
+            />
+            Adicionar ao Carrinho
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Desafio por
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+    </footer>
+  </body>
+</html>

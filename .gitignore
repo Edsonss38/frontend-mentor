@@ -1,0 +1,25 @@
+---
+
+### Evite o envio acidental de arquivos de design do Sketch e Figma  
+#####################################################  
+## Por favor, não remova as linhas 5 e 6 – obrigado! 🙂 ##  
+#####################################################  
+`*.sketch`  
+`*.fig`
+
+---
+
+### Evite o envio acidental de arquivos XD se você converter o arquivo de design  
+###############################################  
+## Por favor, não remova a linha 12 – obrigado! 🙂 ##  
+###############################################  
+`*.xd`
+
+---
+
+### Evite que seu projeto fique cheio de arquivos .DS_Store irritantes!  
+`.DS_Store`  
+`.prettierignore`
+
+---
+
